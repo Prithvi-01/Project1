@@ -1,3 +1,38 @@
+<div align="center">
+  <h1>🩺 PRO_1: Context-Sensing Health Application</h1>
+  <p>A conceptual framework and implementation strategy for pervasive health monitoring systems (PHMS) using the Health-Dev framework.</p>
+</div>
+
+---
+
+## 📖 Overview
+
+**PRO_1** explores the design and architecture of a context-aware mobile application tailored for health monitoring. By leveraging the **Health-Dev** framework (which generates code for Body Sensor Networks via AADL), this project outlines the hardware specifications, software algorithms, and Android implementation strategies needed to build a robust, real-time health tracking ecosystem.
+
+## 🚀 Key Features
+
+- **Physiological Monitoring:** Remote photoplethysmography (rPPG) via wearable cameras for heart rate and respiratory rate extraction.
+- **Environmental Context:** Integration of MQ-135 (Air Quality) and TSL2561 (Light Intensity) sensors.
+- **Context-Aware Algorithms:** Real-time data processing using TensorFlow Lite and OpenCV on edge devices like Raspberry Pi and smartphones.
+- **Advanced UI/UX Integration:** Android LiveData and ViewModel patterns for seamless, real-time user feedback.
+
+---
+
+## 🛠️ Tech Stack & Architecture
+- **Framework:** Health-Dev / bHealthy Application Suite
+- **Languages:** Kotlin / Java
+- **Data Processing:** OpenCV, TensorFlow Lite, Apache Kafka, Apache Flink
+- **Database:** Room Persistence Library / SQLite / Supabase
+
+---
+
+## 📚 Documentation & Research
+
+The theoretical foundation and detailed answers to the project's architectural decisions are documented below.
+
+<details>
+<summary><b>Click to expand full Assignment & Theoretical Details</b></summary>
+
 1. Imagine you are new to the programming world and not proficient enough in coding. But, you have a brilliant idea where you want to develop a context-sensing application like Project 1.  You come across the Heath-Dev paper and want it to build your application. Specify what Specifications you should provide to the Health-Dev framework to develop the code ideally.
 Solution:
 As someone who is new to the world of programming, I am excited in developing a context-sensing application similar to the one which I previously created. When I came across this amazing Health-dev paper I really liked but thought some modifications and improvements would make this work more efficient and robust.
@@ -67,3 +102,5 @@ This will allow us to design and deploy a new context-sensing application using 
 3.A common assumption is mobile computing is mostly about app development. After completing Project 1 and reading both papers, have your views changed? If yes, what do you think mobile computing is about and why? If no, please explain why you still think mobile computing is mostly about app development, providing examples to support your viewpoint
 Solution: Project 1 and the readings of the two papers have completely changed my perspective toward mobile computing. I used to think that mobile computing was all about app development. The exploration has shown that mobile computing is a vast, teeming jungle.
 Android Studio is such a versatile application catering to needs not only for smartphones and tablets but also for a host of other devices. It ranges from wearable Os to Augmented Reality in mobile computing usage for developing softwares. While reading Health-dev and bHealthy research paper, I am amused by the data collection through body censoring network and importing the data to a mobile application to further calculate the health data. Moreover, my understanding has been deepened further with regard to the importance of UX and UI design. In mobile computing, one has to design interfaces that are not only aesthetically pleasing but functional on a wide range of screen sizes and resolutions. Responsive design makes sure applications are functional and adequate in various devices ranging from smartphones to tablets. Furthermore, the future of touch and gesture will need to be painstakingly imagined. A design for intuitive touch gestures-swiping and pinching-is increasingly in demand for a seamless user experience. Hardware plays a far, far understated role in mobile computing. Advanced processors in mobile CPUs, on which Qualcomm Snapdragon and Apple A-series chipsets are used, are directly leading to performances of all kinds of mobile applications. Sensors like Accelerometers, gyroscopes, and GPS further extend the app capabilities regarding motion detection, device orientation, and location services. It is the concept of context-aware computing that really revolutionized my perception towards mobile technology, pointing out how devices can offer highly personalized and context-sensitive services by leveraging sensor data. The ability of context-aware computing to let mobile devices understand and react to a user's environment and activities by behavior change according to contextual information is facilitated through a number of different sensors along with data processing technologies embedded in modern mobile devices. This is further combined with cloud services that provide storage, synchronization, and updates for several applications in real-time. Furthermore, the adoption of server-less computing models allows the mobile application to offload their computation cycle to the cloud; hence, scalability and efficiency are achieved. By doing so, it would enable users to have more seamless experiences and accessibility of data across multiple devices. Examples: The following examples show that mobile computing does not have a restricted scope to app development. Auto-pilot- The auto pilot system applies the use of the combination of mobile computing, sensors, and machine learning to execute the advanced feature of driver assistance for the cars. AR and VR- Using Ar and Vr technologies for providing a virtual experience to the user. Industrial IoT and Remote Maintenance- These sorts of solutions are generally employed in the industrial context by monitoring and operating the performance of equipment using sensors via IoT. Health Care and remote monitoring- Medical and Telemetric health care wearable devices track heart rate, sleep patterns, and physical activity. The date collected synchronizes with a mobile application; however, the system also integrates with health care providers through platforms to manage chronic conditions and provide remote patient monitoring. Smart Agriculture- Farmers can contribute to smart agriculture by using mobile apps to keep track of equipment performance, analyze soil conditions, and manage crop data. The IoT sensors collect the data from machinery and fields, process it, and display it on mobile interfaces. Cloud Computing and Synchronization- Cloud storages such as Google Photos, Microsoft OneDrive, etc., extend beyond providing basic app functionalities into the cloud-based infrastructure for storage, synchronization, and backup. ——————————————————————————————————————————————————————————————————————————————----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------———————————————————————————————————————----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+</details>
